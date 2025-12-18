@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-go",
+            "type": "shell",
+            "command": "C:\\Program Files\\Go\\bin\\go.exe",
+            "args": [
+                "build",
+                "-o",
+                "${workspaceFolder}\\main.exe",
+                "${workspaceFolder}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$go"
+            ]
+        }
+    ]
+}
